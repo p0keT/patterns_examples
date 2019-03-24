@@ -1,9 +1,11 @@
+package patterns.vladimir;
+
 public class DelegateApp {
     public static void main(String ... args){
 //        A a = new A();
 //        a.f();
 
-        //Painter делегирует свои полномочина по рисованию на соответствующие фигуры
+        //patterns.vladimir.Painter делегирует свои полномочина по рисованию на соответствующие фигуры
         //мы такое в ньювижене делали с рисованием линий и остальной графики
         Painter painter = new Painter();
         painter.setGraphics(new Square());

@@ -1,16 +1,18 @@
+package patterns.vladimir;
+
 import java.util.Date;
 
 public class FactoryMethodApp {
     public static void main(String ... args){
-//        Watch watch = new DigitalWatch();
+//        patterns.vladimir.Watch watch = new patterns.vladimir.DigitalWatch();
 //        watch.showTime();
-//        watch = new RomeWatch();
+//        watch = new patterns.vladimir.RomeWatch();
 //        watch.showTime();
 //-----------------------------------------------------
-//        WatchMaker maker =
-//                new DigitalWatchMaker();
-//                //new RomeWatchMaker();
-//        Watch watch = maker.createWatch();
+//        patterns.vladimir.WatchMaker maker =
+//                new patterns.vladimir.DigitalWatchMaker();
+//                //new patterns.vladimir.RomeWatchMaker();
+//        patterns.vladimir.Watch watch = maker.createWatch();
 //        watch.showTime();
 // -----------------------------------------------------
         WatchMaker maker = getMakerByName("Rome");

@@ -1,15 +1,17 @@
+package patterns.vladimir;
+
 public class FacadeApp {
 
     public static void main(String ... args){
 
-//        Power power = new Power();
+//        patterns.vladimir.Power power = new patterns.vladimir.Power();
 //        power.on();
 //
-//        DVDRom dvdRom = new DVDRom();
+//        patterns.vladimir.DVDRom dvdRom = new patterns.vladimir.DVDRom();
 //        dvdRom.load();
 //        dvdRom.unload();
 //
-//        HDD hdd = new HDD();
+//        patterns.vladimir.HDD hdd = new patterns.vladimir.HDD();
 //        hdd.copyFromDVD(dvdRom);
 
         //является нашим фасадом

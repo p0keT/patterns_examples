@@ -1,3 +1,5 @@
+package patterns.vladimir;
+
 public class AbstractFactoryApp {
     public static void main(String ... args){
 
@@ -115,7 +117,7 @@ class RuTouchpad implements Touchpad{
 class EngMouse implements Mouse{
 
     public void click() {
-        System.out.println("Mouse click");
+        System.out.println("patterns.vladimir.Mouse click");
     }
 
     public void dbclick() {
