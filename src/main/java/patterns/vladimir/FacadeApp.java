@@ -1,8 +1,12 @@
 package patterns.vladimir;
 
+import java.awt.image.BufferedImage;
+
 public class FacadeApp {
 
     public static void main(String ... args){
+
+        BufferedImage mk;
 
 //        patterns.vladimir.Power power = new patterns.vladimir.Power();
 //        power.on();
